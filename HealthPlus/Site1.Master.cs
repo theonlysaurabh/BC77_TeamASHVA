@@ -11,7 +11,7 @@ namespace HealthPlus
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         protected void LinkButton6_Click(object sender, EventArgs e)
@@ -52,6 +52,27 @@ namespace HealthPlus
         protected void LinkButton12_Click(object sender, EventArgs e)
         {
             Server.Transfer("ambulance.aspx");
+        }
+
+        protected void LinkButton3_Click(object sender, EventArgs e)
+        {
+            Session["username"] = "null";
+            Session["fullname"] = "null";
+            Session["role"] = "null";
+            Session["status"] = "null";
+
+            LinkButton1.Visible = true; 
+            
+
+            LinkButton3.Visible = false; 
+            LinkButton7.Visible = false; 
+
+
+            LinkButton6.Visible = true; 
+            LinkButton11.Visible = true; 
+            LinkButton12.Visible = true; 
+            LinkButton8.Visible = true; 
+           
         }
     }
 }
