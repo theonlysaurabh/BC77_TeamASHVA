@@ -67,13 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="adminlogin.aspx" />
-    <Content Include="Ambulance.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="css\customstylesheet.css" />
+    <Content Include="css\dropdown-effects\fade-down.css" />
+    <Content Include="css\flaticon.css" />
+    <Content Include="css\jquery.datetimepicker.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\owl.theme.default.min.css" />
+    <Content Include="css\owl.video.play.html" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\timetable.css" />
     <Content Include="datatables\css\jquery.dataTables.min.css" />
     <Content Include="datatables\js\jquery.dataTables.min.js" />
     <Content Include="fontawesome\css\all.css" />
@@ -1712,10 +1723,197 @@
     <Content Include="fontawesome\webfonts\fa-brands-400.svg" />
     <Content Include="fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
-    <Content Include="default.aspx" />
-    <Content Include="healthscheme.aspx" />
+    <Content Include="fonts\Flaticon.svg" />
+    <Content Include="homepage.aspx" />
     <Content Include="hospitaldataupdate.aspx" />
     <Content Include="hospitallogin.aspx" />
+    <Content Include="images\apple-touch-icon-120x120.png" />
+    <Content Include="images\apple-touch-icon-152x152.png" />
+    <Content Include="images\apple-touch-icon-76x76.png" />
+    <Content Include="images\apple-touch-icon.png" />
+    <Content Include="images\back-to-top.png" />
+    <Content Include="images\banner-1.jpg" />
+    <Content Include="images\banner-2.jpg" />
+    <Content Include="images\banner-4.jpg" />
+    <Content Include="images\banner-6.jpg" />
+    <Content Include="images\banner-7.jpg" />
+    <Content Include="images\banner-8.jpg" />
+    <Content Include="images\bg-beauty.jpg" />
+    <Content Include="images\bg01.html" />
+    <Content Include="images\blog\featured-news.jpg" />
+    <Content Include="images\blog\header-post-1.html" />
+    <Content Include="images\blog\header-post-2.html" />
+    <Content Include="images\blog\header-post-3.html" />
+    <Content Include="images\blog\image-widget.jpg" />
+    <Content Include="images\blog\latest-post-1.jpg" />
+    <Content Include="images\blog\latest-post-2.jpg" />
+    <Content Include="images\blog\latest-post-3.jpg" />
+    <Content Include="images\blog\post-1-img.jpg" />
+    <Content Include="images\blog\post-2-img.jpg" />
+    <Content Include="images\blog\post-3-img.jpg" />
+    <Content Include="images\blog\post-4-img.jpg" />
+    <Content Include="images\blog\post-5-img.jpg" />
+    <Content Include="images\blog\post-6-img.jpg" />
+    <Content Include="images\body_procedure_700x800.jpg" />
+    <Content Include="images\breadcrumb.jpg" />
+    <Content Include="images\breast_procedure_700x800.jpg" />
+    <Content Include="images\cardiology_1000x500.jpg" />
+    <Content Include="images\cardiology_700x700.jpg" />
+    <Content Include="images\carousel\slide-1.jpg" />
+    <Content Include="images\carousel\slide-2.jpg" />
+    <Content Include="images\carousel\slide-3.jpg" />
+    <Content Include="images\certificate-1.png" />
+    <Content Include="images\certificate-2.png" />
+    <Content Include="images\certificate-3.png" />
+    <Content Include="images\certificate-4.png" />
+    <Content Include="images\certificate-5.png" />
+    <Content Include="images\chief_doctor_700x800.jpg" />
+    <Content Include="images\color-scheme\l-01.jpg" />
+    <Content Include="images\color-scheme\l-02.jpg" />
+    <Content Include="images\color-scheme\l-03.jpg" />
+    <Content Include="images\color-scheme\l-04.jpg" />
+    <Content Include="images\color-scheme\l-05.jpg" />
+    <Content Include="images\color-scheme\l-06.jpg" />
+    <Content Include="images\color-scheme\l-07.jpg" />
+    <Content Include="images\color-scheme\l-08.jpg" />
+    <Content Include="images\color-scheme\l-09.jpg" />
+    <Content Include="images\color-scheme\l-10.jpg" />
+    <Content Include="images\color-scheme\l-11.jpg" />
+    <Content Include="images\color-scheme\l-12.jpg" />
+    <Content Include="images\contacts-1.html" />
+    <Content Include="images\contact_lenses_700x700.jpg" />
+    <Content Include="images\cosmetic_dentistry_800x600.jpg" />
+    <Content Include="images\dental_emergency_800x600.jpg" />
+    <Content Include="images\doctor-1.jpg" />
+    <Content Include="images\doctor-2.jpg" />
+    <Content Include="images\doctor-3.jpg" />
+    <Content Include="images\doctor-4.jpg" />
+    <Content Include="images\doctor-5.jpg" />
+    <Content Include="images\doctor-6.jpg" />
+    <Content Include="images\doctor-profile.jpg" />
+    <Content Include="images\emergency_help_700x700.jpg" />
+    <Content Include="images\emergency_help_700x800.jpg" />
+    <Content Include="images\emergency_help_800x600.jpg" />
+    <Content Include="images\eye_correct_700x700.jpg" />
+    <Content Include="images\eye_exam_700x700.jpg" />
+    <Content Include="images\face_procedure_700x800.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\footer-bg.jpg" />
+    <Content Include="images\footer-logo-white.png" />
+    <Content Include="images\footer-logo.png" />
+    <Content Include="images\gallery\image-1.jpg" />
+    <Content Include="images\gallery\image-10.jpg" />
+    <Content Include="images\gallery\image-11.jpg" />
+    <Content Include="images\gallery\image-12.jpg" />
+    <Content Include="images\gallery\image-13.jpg" />
+    <Content Include="images\gallery\image-14.jpg" />
+    <Content Include="images\gallery\image-15.jpg" />
+    <Content Include="images\gallery\image-16.jpg" />
+    <Content Include="images\gallery\image-17.jpg" />
+    <Content Include="images\gallery\image-18.jpg" />
+    <Content Include="images\gallery\image-19.jpg" />
+    <Content Include="images\gallery\image-2.jpg" />
+    <Content Include="images\gallery\image-20.jpg" />
+    <Content Include="images\gallery\image-3.jpg" />
+    <Content Include="images\gallery\image-4.jpg" />
+    <Content Include="images\gallery\image-5.jpg" />
+    <Content Include="images\gallery\image-6.jpg" />
+    <Content Include="images\gallery\image-7.jpg" />
+    <Content Include="images\gallery\image-8.jpg" />
+    <Content Include="images\gallery\image-9.jpg" />
+    <Content Include="images\general_dentistry_800x600.jpg" />
+    <Content Include="images\head-of-clinic.jpg" />
+    <Content Include="images\hematology_1000x500.jpg" />
+    <Content Include="images\hematology_700x700.jpg" />
+    <Content Include="images\hero-1-img.png" />
+    <Content Include="images\hero-1.jpg" />
+    <Content Include="images\hero-12-img.jpg" />
+    <Content Include="images\hero-4.jpg" />
+    <Content Include="images\hero-5.jpg" />
+    <Content Include="images\icons\anesthetic.png" />
+    <Content Include="images\icons\braces.png" />
+    <Content Include="images\icons\broken.png" />
+    <Content Include="images\icons\calculus.png" />
+    <Content Include="images\icons\caries.png" />
+    <Content Include="images\icons\clean.png" />
+    <Content Include="images\icons\equipment.png" />
+    <Content Include="images\icons\implant.png" />
+    <Content Include="images\image-01.png" />
+    <Content Include="images\image-02.png" />
+    <Content Include="images\image-03.png" />
+    <Content Include="images\image-04.png" />
+    <Content Include="images\image-05.png" />
+    <Content Include="images\image-06.png" />
+    <Content Include="images\image-07.png" />
+    <Content Include="images\image-08.png" />
+    <Content Include="images\image-09.png" />
+    <Content Include="images\image-10.png" />
+    <Content Include="images\image-11.png" />
+    <Content Include="images\image-12.png" />
+    <Content Include="images\image-13.png" />
+    <Content Include="images\info-5.jpg" />
+    <Content Include="images\info-6.jpg" />
+    <Content Include="images\info-7.jpg" />
+    <Content Include="images\info-8.jpg" />
+    <Content Include="images\info-9.jpg" />
+    <Content Include="images\kids_dentistry_800x600.jpg" />
+    <Content Include="images\kids_eye_correct_700x700.jpg" />
+    <Content Include="images\laboratory_700x700.jpg" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\logo-grey.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\medical_complex_700x700.jpg" />
+    <Content Include="images\mri_1000x500.jpg" />
+    <Content Include="images\mri_700x700.jpg" />
+    <Content Include="images\neurology_700x700.jpg" />
+    <Content Include="images\next.svg" />
+    <Content Include="images\optometry-bg.jpg" />
+    <Content Include="images\pediatrics_1000x500.jpg" />
+    <Content Include="images\pediatrics_700x700.jpg" />
+    <Content Include="images\pediatrics_700x800.jpg" />
+    <Content Include="images\place-marker.png" />
+    <Content Include="images\post-author-1.jpg" />
+    <Content Include="images\post-author-2.jpg" />
+    <Content Include="images\post-author-3.jpg" />
+    <Content Include="images\post-author-4.jpg" />
+    <Content Include="images\prev.svg" />
+    <Content Include="images\quality_care_800x600.jpg" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\rec_procedure_700x800.jpg" />
+    <Content Include="images\review-author-1.jpg" />
+    <Content Include="images\review-author-2.jpg" />
+    <Content Include="images\review-author-3.jpg" />
+    <Content Include="images\review-author-4.jpg" />
+    <Content Include="images\review-author-5.jpg" />
+    <Content Include="images\review-author-6.jpg" />
+    <Content Include="images\review-author-7.jpg" />
+    <Content Include="images\review-author-8.jpg" />
+    <Content Include="images\review-author-9.jpg" />
+    <Content Include="images\signature.png" />
+    <Content Include="images\slider\slide-1.jpg" />
+    <Content Include="images\slider\slide-10.jpg" />
+    <Content Include="images\slider\slide-11.jpg" />
+    <Content Include="images\slider\slide-12.jpg" />
+    <Content Include="images\slider\slide-13.jpg" />
+    <Content Include="images\slider\slide-14.jpg" />
+    <Content Include="images\slider\slide-15.jpg" />
+    <Content Include="images\slider\slide-16.jpg" />
+    <Content Include="images\slider\slide-17.jpg" />
+    <Content Include="images\slider\slide-18.jpg" />
+    <Content Include="images\slider\slide-2.jpg" />
+    <Content Include="images\slider\slide-4.jpg" />
+    <Content Include="images\slider\slide-5.jpg" />
+    <Content Include="images\slider\slide-6.jpg" />
+    <Content Include="images\slider\slide-7.jpg" />
+    <Content Include="images\slider\slide-8.jpg" />
+    <Content Include="images\slider\slide-9.jpg" />
+    <Content Include="images\statistic.jpg" />
+    <Content Include="images\tooth.png" />
+    <Content Include="images\video-1.png" />
+    <Content Include="images\video-2.png" />
+    <Content Include="images\video-3.png" />
+    <Content Include="images\x-ray_1000x500.jpg" />
+    <Content Include="images\x-ray_700x700.jpg" />
     <Content Include="imgs\adminuser.png" />
     <Content Include="imgs\book-online.png" />
     <Content Include="imgs\books.png" />
@@ -1734,47 +1932,47 @@
     <Content Include="imgs\search-online.png" />
     <Content Include="imgs\sign-up.png" />
     <Content Include="imgs\writer.png" />
+    <Content Include="js\appointment-form.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\changer.js" />
+    <Content Include="js\comment-form.js" />
+    <Content Include="js\contact-form.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\hero-form.js" />
+    <Content Include="js\imagesloaded.pkgd.min.js" />
+    <Content Include="js\isotope.pkgd.min.js" />
+    <Content Include="js\jquery-3.3.1.min.js" />
+    <Content Include="js\jquery.ajaxchimp.min.js" />
+    <Content Include="js\jquery.appear.js" />
+    <Content Include="js\jquery.datetimepicker.full.js" />
+    <Content Include="js\jquery.easing.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.scrollto.js" />
+    <Content Include="js\jquery.stellar.min.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="js\materialize.js" />
+    <Content Include="js\menu.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\sticky.js" />
+    <Content Include="js\styleswitch.js" />
+    <Content Include="js\timetable.js" />
+    <Content Include="js\wow.js" />
     <Content Include="medicalfacility.aspx" />
-    <Content Include="medicine.aspx" />
     <Content Include="membermanagement.aspx" />
-    <Content Include="patrec.aspx" />
-    <Content Include="pharlogin.aspx" />
-    <Content Include="pharregister.aspx" />
     <Content Include="userlogin.aspx" />
     <Content Include="userprofile.aspx" />
     <Content Include="usersignup.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="adminlogin.aspx.cs">
-      <DependentUpon>adminlogin.aspx</DependentUpon>
+    <Compile Include="homepage.aspx.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adminlogin.aspx.designer.cs">
-      <DependentUpon>adminlogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Ambulance.aspx.cs">
-      <DependentUpon>Ambulance.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Ambulance.aspx.designer.cs">
-      <DependentUpon>Ambulance.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="dataaccess.cs" />
-    <Compile Include="default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="healthscheme.aspx.cs">
-      <DependentUpon>healthscheme.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="healthscheme.aspx.designer.cs">
-      <DependentUpon>healthscheme.aspx</DependentUpon>
+    <Compile Include="homepage.aspx.designer.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="hospitaldataupdate.aspx.cs">
       <DependentUpon>hospitaldataupdate.aspx</DependentUpon>
@@ -1797,13 +1995,6 @@
     <Compile Include="medicalfacility.aspx.designer.cs">
       <DependentUpon>medicalfacility.aspx</DependentUpon>
     </Compile>
-    <Compile Include="medicine.aspx.cs">
-      <DependentUpon>medicine.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="medicine.aspx.designer.cs">
-      <DependentUpon>medicine.aspx</DependentUpon>
-    </Compile>
     <Compile Include="membermanagement.aspx.cs">
       <DependentUpon>membermanagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1811,30 +2002,10 @@
     <Compile Include="membermanagement.aspx.designer.cs">
       <DependentUpon>membermanagement.aspx</DependentUpon>
     </Compile>
-    <Compile Include="patrec.aspx.cs">
-      <DependentUpon>patrec.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="patrec.aspx.designer.cs">
-      <DependentUpon>patrec.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pharlogin.aspx.cs">
-      <DependentUpon>pharlogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pharlogin.aspx.designer.cs">
-      <DependentUpon>pharlogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pharregister.aspx.cs">
-      <DependentUpon>pharregister.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pharregister.aspx.designer.cs">
-      <DependentUpon>pharregister.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -1860,12 +2031,12 @@
     <Compile Include="usersignup.aspx.designer.cs">
       <DependentUpon>usersignup.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -1923,6 +2094,10 @@
     <Content Include="fontawesome\webfonts\fa-solid-900.ttf" />
     <Content Include="fontawesome\webfonts\fa-solid-900.woff" />
     <Content Include="fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="fonts\Flaticon.eot" />
+    <Content Include="fonts\Flaticon.ttf" />
+    <Content Include="fonts\Flaticon.woff" />
+    <Content Include="fonts\Flaticond41d.eot" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">

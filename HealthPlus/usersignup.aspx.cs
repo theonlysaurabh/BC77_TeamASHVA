@@ -10,24 +10,17 @@ using System.Web.UI.WebControls;
 
 namespace HealthPlus
 {
-
     public partial class usersignup : System.Web.UI.Page
     {
-      //  SqlConnection strcon = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["RCB2C"].ToString());
-        string  strcon = ConfigurationManager.ConnectionStrings["RCB2C"].ConnectionString;
-        // string strcon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
-
-
+        string strcon = ConfigurationManager.ConnectionStrings["RCB2C"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-           // checkmemberExists();
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if(checkmemberExists ())
+            if (checkmemberExists())
             {
                 Response.Write("<script>alert('User ID already exists, try with another ID');</script>");
             }
@@ -37,8 +30,6 @@ namespace HealthPlus
                 userregistration();
 
             }
-            
-            
         }
 
 
@@ -47,10 +38,10 @@ namespace HealthPlus
             var st = "st";
             try
             {
-              //  SqlConnection con = new SqlConnection(strcon);
+                //  SqlConnection con = new SqlConnection(strcon);
                 SqlConnection con = new SqlConnection(strcon);
-              //  SqlCommand cmd = new SqlCommand("SELECT * from user_registration where user_id='" + st + "'", con);
-                  SqlCommand cmd = new SqlCommand("SELECT * from user_registration where user_id='" + TextBox6.Text.Trim()+ "';", con);
+                //  SqlCommand cmd = new SqlCommand("SELECT * from user_registration where user_id='" + st + "'", con);
+                SqlCommand cmd = new SqlCommand("SELECT * from user_registration where user_id='" + TextBox6.Text.Trim() + "';", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
 
                 DataTable dt = new DataTable();
@@ -59,11 +50,11 @@ namespace HealthPlus
 
                 if (dt.Rows.Count >= 1)
                     return true;
-                else 
+                else
                     return false;
 
 
-               
+
 
                 Response.Write("<script>alert('Sign Up Successful. Go to Login page to Procede');</script>");
 
@@ -95,28 +86,28 @@ namespace HealthPlus
 
 
 
-              //  cmd.Parameters.Add("@user_name", SqlDbType.VarChar).Value = txtname.Text;
-              ////  cmd.Parameters.Add("@phone_no", SqlDbType.Int).Value = TextBox3.Text;
-              //  cmd.Parameters.Add("@email", SqlDbType.VarChar).Value = txtemail.Text.Trim();
-              //  cmd.Parameters.Add("@user_add", SqlDbType.VarChar).Value = txtaddress.Text.Trim();
-              //  // cmd.Parameters.Add("@state", SqlDbType.VarChar).Value = DropDownList1.SelectedItem.ToString();
-              //  // cmd.Parameters.Add("@city", SqlDbType.VarChar).Value = TextBox7.Text.Trim();
-              //  //  cmd.Parameters.AddWithValue("@pincode", SqlDbType.VarChar TextBox8.Text.Trim());
-              //  cmd.Parameters.Add("@father_name", SqlDbType.VarChar).Value = txtfname.Text.Trim();
-              //  cmd.Parameters.Add("@mother_name", SqlDbType.VarChar).Value = txtmedical.Text.Trim();
-              //  cmd.Parameters.Add("@gender", SqlDbType.VarChar).Value = ddlgender.SelectedItem.Text;
-              //  cmd.Parameters.Add("@birthdate", SqlDbType.DateTime).Value = txtdob.Text;
-              //  cmd.Parameters.Add("@blood_group", SqlDbType.VarChar).Value = ddlblood.SelectedItem.Text;
-              //  cmd.Parameters.Add("@height", SqlDbType.Int).Value = txtheight.Text;
-              //  cmd.Parameters.Add("@user_weight", SqlDbType.Int).Value = int.Parse(txtweight.Text);
-              //  cmd.Parameters.Add("@medical_history", SqlDbType.VarChar).Value = txtmedical.Text.Trim();
-              //  cmd.Parameters.Add("preferred_doctor", SqlDbType.VarChar).Value = txtdoctor.Text.Trim();
-              //  cmd.Parameters.Add("@income", SqlDbType.VarChar).Value = txtincome.Text;
-              //  cmd.Parameters.Add("@cghs", SqlDbType.VarChar).Value = ddlchcard.SelectedItem.Text;
-              //  cmd.Parameters.Add("@cghs_no", SqlDbType.VarChar).Value = txtcardno.Text;
-              //  cmd.Parameters.Add("@adhar_no", SqlDbType.VarChar).Value = txtaadhar.Text;
-              //  cmd.Parameters.Add("@user_id", SqlDbType.NVarChar).Value = txtuser.Text;
-              //  cmd.Parameters.Add("@password", SqlDbType.NVarChar).Value = txtpass.Text;
+                //  cmd.Parameters.Add("@user_name", SqlDbType.VarChar).Value = txtname.Text;
+                ////  cmd.Parameters.Add("@phone_no", SqlDbType.Int).Value = TextBox3.Text;
+                //  cmd.Parameters.Add("@email", SqlDbType.VarChar).Value = txtemail.Text.Trim();
+                //  cmd.Parameters.Add("@user_add", SqlDbType.VarChar).Value = txtaddress.Text.Trim();
+                //  // cmd.Parameters.Add("@state", SqlDbType.VarChar).Value = DropDownList1.SelectedItem.ToString();
+                //  // cmd.Parameters.Add("@city", SqlDbType.VarChar).Value = TextBox7.Text.Trim();
+                //  //  cmd.Parameters.AddWithValue("@pincode", SqlDbType.VarChar TextBox8.Text.Trim());
+                //  cmd.Parameters.Add("@father_name", SqlDbType.VarChar).Value = txtfname.Text.Trim();
+                //  cmd.Parameters.Add("@mother_name", SqlDbType.VarChar).Value = txtmedical.Text.Trim();
+                //  cmd.Parameters.Add("@gender", SqlDbType.VarChar).Value = ddlgender.SelectedItem.Text;
+                //  cmd.Parameters.Add("@birthdate", SqlDbType.DateTime).Value = txtdob.Text;
+                //  cmd.Parameters.Add("@blood_group", SqlDbType.VarChar).Value = ddlblood.SelectedItem.Text;
+                //  cmd.Parameters.Add("@height", SqlDbType.Int).Value = txtheight.Text;
+                //  cmd.Parameters.Add("@user_weight", SqlDbType.Int).Value = int.Parse(txtweight.Text);
+                //  cmd.Parameters.Add("@medical_history", SqlDbType.VarChar).Value = txtmedical.Text.Trim();
+                //  cmd.Parameters.Add("preferred_doctor", SqlDbType.VarChar).Value = txtdoctor.Text.Trim();
+                //  cmd.Parameters.Add("@income", SqlDbType.VarChar).Value = txtincome.Text;
+                //  cmd.Parameters.Add("@cghs", SqlDbType.VarChar).Value = ddlchcard.SelectedItem.Text;
+                //  cmd.Parameters.Add("@cghs_no", SqlDbType.VarChar).Value = txtcardno.Text;
+                //  cmd.Parameters.Add("@adhar_no", SqlDbType.VarChar).Value = txtaadhar.Text;
+                //  cmd.Parameters.Add("@user_id", SqlDbType.NVarChar).Value = txtuser.Text;
+                //  cmd.Parameters.Add("@password", SqlDbType.NVarChar).Value = txtpass.Text;
 
                 //cmd.Parameters.AddWithValue("@user_name", TextBox1.Text);
                 //cmd.Parameters.AddWithValue("@phone_no", TextBox3.Text);
@@ -142,10 +133,10 @@ namespace HealthPlus
                 //cmd.Parameters.AddWithValue("@password", TextBox9.Text.Trim());
 
 
-               // cmd.CommandType = CommandType.StoredProcedure;
+                // cmd.CommandType = CommandType.StoredProcedure;
                 con.Open();
-               // cmd = new SqlCommand("uregistration", con);//[uregistration]
-                 cmd = new SqlCommand("insert into user_registration (user_name,user_add,email,preferred_doctor,medical_history,height,user_weight, birthdate, gender, blood_group, father_name, mother_name, income, cghs, cghs_no, adhar_no, user_id, password)  values( '" + TextBox1.Text+"', '"+ TextBox5.Text+"','"+TextBox4.Text+"', '"+TextBox15.Text+"','"+TextBox14.Text+"','"+TextBox12.Text+"','"+Convert.ToInt32(TextBox13.Text)+"','"+ TextBox2.Text+"','"+DropDownList3.SelectedItem.Text+"','"+DropDownList4.SelectedItem.Text+"','"+TextBox10.Text+"','"+TextBox11.Text+"','"+TextBox16.Text+"','"+DropDownList2.SelectedItem.Text+"','"+TextBox17.Text+"','"+TextBox18.Text+"','"+TextBox6.Text+"','"+TextBox9.Text+"')", con);
+                // cmd = new SqlCommand("uregistration", con);//[uregistration]
+                cmd = new SqlCommand("insert into user_registration (user_name,user_add,email,preferred_doctor,medical_history,height,user_weight, birthdate, gender, blood_group, father_name, mother_name, income, cghs, cghs_no, adhar_no, user_id, password)  values( '" + TextBox1.Text + "', '" + TextBox5.Text + "','" + TextBox4.Text + "', '" + TextBox15.Text + "','" + TextBox14.Text + "','" + TextBox12.Text + "','" + Convert.ToInt32(TextBox13.Text) + "','" + TextBox2.Text + "','" + Sex.SelectedItem.Text + "','" + BloodGroup.SelectedItem.Text + "','" + TextBox10.Text + "','" + TextBox11.Text + "','" + TextBox16.Text + "','" + DropDownList2.SelectedItem.Text + "','" + TextBox17.Text + "','" + TextBox18.Text + "','" + TextBox6.Text + "','" + TextBox9.Text + "')", con);
                 cmd.ExecuteNonQuery();
                 con.Close();
 

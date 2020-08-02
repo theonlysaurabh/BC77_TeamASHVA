@@ -5,7 +5,7 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <div class="row">
+    <div class="row">
                      <div class="col">
                         <hr>
                      </div>
@@ -130,13 +130,17 @@
                         </div>
                      </div>
                   </div>
-
+                   <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
 
                    <div class="row">
                      
                        <div class="col">
                            <center>
-                           <span class="badge badge-pill badge-info "> Details Information</span>
+                           <span class="badge badge-pill badge-info "> Detailed Information</span>
                                </center>
                        </div>
                       
@@ -165,7 +169,7 @@
                        <div class="col-md-4">
                            <label >Sex  </label>
                            <br />
-                           <asp:DropDownList ID="DropDownList3" runat="server">
+                           <asp:DropDownList ID="Sex" runat="server">
                                <asp:ListItem Text ="Female" value="Female" />
                                <asp:ListItem Text="Male"  Value ="Male" />
                                <asp:ListItem Text="Others" Value ="Others" />
@@ -183,7 +187,7 @@
                        <div class="col-md-4">
                            <label>Blood Group </label>
                            <br />
-                            <asp:DropDownList ID="DropDownList4" runat ="server" >
+                            <asp:DropDownList ID="BloodGroup" runat ="server" >
                                 <asp:ListItem Text ="A+" Value ="A+" />
                                 <asp:ListItem Text ="A-" Value ="A-" />
                                 <asp:ListItem Text ="B+" Value ="B+" />
@@ -272,7 +276,11 @@
                          </div>
                      </div>
                   </div>
-
+                   <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
                    <div class="row">
                      
                        <div class="col-md-12">
@@ -299,12 +307,15 @@
                      </div>
                   </div>
 
-
+                   <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
                    <div class="row">
                      <div class="col-md-12">
                           <div class="form-group">
-                           
-                             <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Sign Upe" OnClick="Button1_Click" />
+                           <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign Up" OnClick="Button1_Click" />
                         </div>
                      </div>
                   </div>
@@ -312,10 +323,12 @@
                    </div>
 
               
-            </div>
-            <a href="default.aspx"><< Back to Home</a><br><br>
-         </div>
+            
       </div>
    </div>
-     
+     <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
 </asp:Content>

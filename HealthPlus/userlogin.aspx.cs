@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -13,7 +12,6 @@ namespace HealthPlus
     public partial class userlogin : System.Web.UI.Page
     {
         string strcon = ConfigurationManager.ConnectionStrings["RCB2C"].ConnectionString;
-
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -32,9 +30,9 @@ namespace HealthPlus
                 SqlCommand cmd = new SqlCommand("SELECT * from user_registration where user_id = '" + TextBox1.Text.Trim() + "' AND password='" + TextBox2.Text.Trim() + "'", con);
 
                 SqlDataReader dr = cmd.ExecuteReader();
-                if(dr.HasRows)
+                if (dr.HasRows)
                 {
-                    while(dr.Read())
+                    while (dr.Read())
                     {
                         Response.Write("<script>alert('Login Successful');</script>");
                         Session["username"] = dr.GetValue(19).ToString();
@@ -58,8 +56,6 @@ namespace HealthPlus
             {
                 Response.Write("<script>alert('User ID already exists, try with another ID');</script>");
             }
-
-           
         }
     }
 }
