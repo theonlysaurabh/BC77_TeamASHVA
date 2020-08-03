@@ -141,7 +141,7 @@
         					<ul class="wsmenu-list">
 
 
-								<li class="nl-simple" aria-haspopup="true"><a href="homepage.aspx">Home</a></li>	
+								<li class="nl-simple" aria-haspopup="true"><a href="default.aspx">Home</a></li>	
 
         						<!-- DROPDOWN MENU 
 					        	<li aria-haspopup="true"><a href="#">Home <span class="wsarrow"></span></a>
@@ -256,13 +256,14 @@
                									<!-- MEGAMENU QUICK LINKS -->
                									<ul class="col-lg-3 col-md-12 col-xs-12 link-list">
 								                    <li class="title">Quick Links:</li>
-								                    <li><a href="#">Universal Patient Record</a></li>
-								                    <li><a href="#">Health Schemes</a></li>
+								                    <li><a href="userprofile.aspx">Universal Patient Record</a></li>
+								                    <li><a href="healthscheme.aspx">Health Schemes</a></li>
 								                    <li><a href="medicalfacility.aspx">Search Hospitals</a></li>								                    
-								                    <li><a href="#">Patient Info Sheets</a></li>
-								                    <li><a href="#">Appointments</a></li>
+								                    
+								                    <li><a href="medicalfacility.aspx">Appointments</a></li>
 								                    <li><a href="#">Buy Medicine</a></li>
 								                    <li><a href="userprofile.aspx">User Profile</a></li>
+													<li><a href="hospitaldataupdate.aspx">hospital data sync</a></li>
 								                </ul>
 
 
@@ -503,13 +504,13 @@
 										<li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
 										<li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
 										<li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
-									    -->	
+									    -
 
-									</ul>									
+									</ul>-->									
 								</div> 
 								
 							</div>	
-						</div>
+						
 
 
 						<!-- FOOTER CONTACTS 
@@ -533,24 +534,24 @@
 						</div>-->
 
 
-						<!-- FOOTER LINKS 
+						<!-- FOOTER LINKS -->
 						<div class="col-md-6 col-lg-2">
 							<div class="footer-links mb-40">
 							
-								<!-- Title 
+								<!-- Title -->
 								<h5 class="h5-xs">About Clinic</h5>
 
-								<!-- Footer Links 
+								<!-- Footer Links -->
 								<ul class="foo-links clearfix">
-									<li><a href="#">About Clinic</a></li>
-									<li><a href="#">Careers</a></li>
-									<li><a href="#">Press & Media</a></li>
-									<li><a href="#">Our Blog</a></li>
-									<li><a href="#">Advertising</a></li>									
+									<li><a href="hospitallogin.aspx">Hospital Login</a></li>
+									<li><a href="pharmaloginaspx">Pharmacy Login</a></li>
+									<li><a href="ambulance.aspx">Ambulance Assistance</a></li>
+									<li><a href="adminlogin.aspx">Admin Login</a></li>
+									<li><a href="membermanagement.aspx">User Management</a></li>									
 								</ul>
 
 							</div>
-						</div>-->
+						</div>
 
 
 						<!-- FOOTER LINKS -->
@@ -591,6 +592,7 @@
 
 
 </div>
+		
     </form>
 
 		<!-- EXTERNAL SCRIPTS

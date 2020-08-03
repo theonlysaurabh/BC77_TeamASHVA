@@ -7,13 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace HealthPlus
 {
-    public partial class medicalfacility : System.Web.UI.Page
+    public partial class appointment : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
-        
     }
 }

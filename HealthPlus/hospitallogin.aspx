@@ -48,10 +48,13 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <a href="homepage.aspx"><< Back to Home</a><br><br>
-         </div>
+                </div> 
+           <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
       </div>
-   </div>
 
+    
 </asp:Content>

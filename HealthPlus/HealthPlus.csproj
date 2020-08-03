@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="appointment.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
@@ -87,6 +88,7 @@
     <Content Include="css\timetable.css" />
     <Content Include="datatables\css\jquery.dataTables.min.css" />
     <Content Include="datatables\js\jquery.dataTables.min.js" />
+    <Content Include="deps.aspx" />
     <Content Include="fontawesome\css\all.css" />
     <Content Include="fontawesome\css\all.min.css" />
     <Content Include="fontawesome\css\brands.css" />
@@ -1724,7 +1726,8 @@
     <Content Include="fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
     <Content Include="fonts\Flaticon.svg" />
-    <Content Include="homepage.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="healthscheme.aspx" />
     <Content Include="hospitaldataupdate.aspx" />
     <Content Include="hospitallogin.aspx" />
     <Content Include="images\apple-touch-icon-120x120.png" />
@@ -1967,12 +1970,33 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="appointment.aspx.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appointment.aspx.designer.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deps.aspx.cs">
+      <DependentUpon>deps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deps.aspx.designer.cs">
+      <DependentUpon>deps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="healthscheme.aspx.cs">
+      <DependentUpon>healthscheme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="healthscheme.aspx.designer.cs">
+      <DependentUpon>healthscheme.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homepage.aspx.cs">
-      <DependentUpon>homepage.aspx</DependentUpon>
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="homepage.aspx.designer.cs">
-      <DependentUpon>homepage.aspx</DependentUpon>
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="hospitaldataupdate.aspx.cs">
       <DependentUpon>hospitaldataupdate.aspx</DependentUpon>

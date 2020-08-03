@@ -46,7 +46,11 @@
                         </div>
                      </div>
                       </div>
-                
+                <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
                   
 
                     <div class="row">
@@ -79,7 +83,7 @@
                    </div>
 
                    <div class="row">
-                     <div class="col-md-4">
+                     <div class="col-md-5">
                         <label>State</label>
                         <div class="form-group">
                             <asp:DropDownList ID="DropDownList1" runat="server">
@@ -126,14 +130,18 @@
                         </div>
                      </div>
 
-                       <div class="col-md-4">
+                       <div class="col-md-3">
                         <label>Pin Code </label>
                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="TextBox8" runat="server" placeholder="Pin Code" TextMode="Number"></asp:TextBox>
                         </div>
                      </div>
                   </div>
-
+                   <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
 
                    <div class="row">
                      
@@ -275,7 +283,11 @@
                          </div>
                      </div>
                   </div>
-
+                   <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
                    <div class="row">
                      
                        <div class="col-md-12">
@@ -308,7 +320,11 @@
                         </div>
                      </div>
                   </div>
-
+                   <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
 
                    <div class="row">
                      <div class="col-md-12">
@@ -325,11 +341,11 @@
 
               
             </div>
-            <a href="homepage.aspx"><< Back to Home</a><br><br>
+            
          </div>
       </div>
 
-          <div class="col-md-4">
+          <div class="col-md-7">
 
                <div class="card">
                <div class="card-body">
@@ -349,8 +365,37 @@
                             </center>
                      </div>
                   </div>
+
                    <div class="row">
                      <div class="col">
+                          <div class="row">
+                     <div class="col">
+                        <hr>
+                     </div>
+                  </div>
+                         </div>
+                  <div class="row">
+                      <div class="col-md-3">
+                            <label>Sr.</label>
+                          
+                       </div>
+                      <div class="col-md-3">
+                            <label>Name</label>
+                          
+                       </div>
+                      <div class="col-md-3">
+                            <label>Facilitiy</label>
+                          
+                       </div>
+                      <div class="col-md-3">
+                            <label>Date</label>
+                          
+                       </div>
+                     <div class="col">
+                         <div class="col-md-12">
+                            <label>1.Dr. Ram Lohia Institute of Medical Sciences           |          Cardiology            |           2/08/2020 </label>
+
+                          
                          <asp:GridView class="table table-striped  table-bordered" ID="GridView1" runat="server"></asp:GridView>
                      </div>
                   </div>

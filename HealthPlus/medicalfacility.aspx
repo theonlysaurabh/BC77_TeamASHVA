@@ -39,7 +39,7 @@
                        <div class="col-md-6">
                            <label>Select State</label>
                            <asp:DropDownList ID="DropDownList1" runat="server">
-
+                                <asp:ListItem Text="Uttar Pradesh" Value="Uttar Pradesh" />
                                 <asp:ListItem Text="Andhra Pradesh" Value="Andhra Pradesh" />
                               <asp:ListItem Text="Arunachal Pradesh" Value="Arunachal Pradesh" />
                               <asp:ListItem Text="Assam" Value="Assam" />
@@ -67,7 +67,7 @@
                               <asp:ListItem Text="Tamil Nadu" Value="Tamil Nadu" />
                               <asp:ListItem Text="Telangana" Value="Telangana" />
                               <asp:ListItem Text="Tripura" Value="Tripura" />
-                              <asp:ListItem Text="Uttar Pradesh" Value="Uttar Pradesh" />
+                             
                               <asp:ListItem Text="Uttarakhand" Value="Uttarakhand" />
                               <asp:ListItem Text="West Bengal" Value="West Bengal" />
 
@@ -172,11 +172,20 @@
                      <div class="col">
                          <div class="col-md-12">
                             <label>1.Dr. Ram Lohia Institute of Medical Sciences  |  Cardiology,Nephrology, Neurology, Gastrolosy  |   123/12 </label>
-
-                          
+                             </div>
+                          <div class="col-md-12">
                       
                         <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server"></asp:GridView>
                      </div>
+                          <div class="col-md-6">
+                      <center>
+                        <a href="appointment.aspx"><input class="btn btn-info btn-block btn-lg" id="Button2" type="button" value="Book Appointment" /></a>
+                           <a href="deps.aspx"><input class="btn btn-info btn-block btn-lg" id="Button4" type="button" value="Details" /></a>
+                             </center>
+                     </div>
+                    </div> 
+
+
                   </div>
                </div>
             </div>
